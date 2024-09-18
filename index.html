@@ -17,6 +17,10 @@
       span {
         color: orange;
       }
+      * {
+        margin: 3px;
+        padding: 0px;
+      }
       div {
         width: 200px;
         height: 200px;
@@ -27,9 +31,15 @@
       }
       .one {
         background: red;
+        position: static; /* position 預設值為 static */
+        top: 50px;
+        left: 100px;
       }
       .two {
         background: blue;
+        position: relative;
+        top: 50px;
+        left: 100px;
       }
       footer {
         text-align: center;
