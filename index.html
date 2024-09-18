@@ -41,6 +41,24 @@
         top: 50px;
         left: 100px;
       }
+      #relative {
+        background: blue;
+        height: 400px;
+        width: 500px;
+        line-height: 350px;
+        position: relative;
+        top: 50px;
+        left: 100px;
+      }
+      #absolute {
+        background: red;
+        height: 200px;
+        width: 200px;
+        line-height: 200px;
+        position: absolute;
+        top: 195px;
+        left: 295px;
+      }
       footer {
         text-align: center;
       }
@@ -204,6 +222,12 @@
     <!--版面區塊設定-->
     <div class="one">區塊1</div>
     <div class="two">區塊2</div>
+    <br /><!--換行-->
+    <br /><!--換行-->
+    <div id="relative">
+      我是可定位的父元素
+      <div id="absolute">我是子元素</div>
+    </div>
     <br /><!--換行-->
     <footer>
       <!--整份網頁的最底處，用於存放版權、作者資訊等-->
