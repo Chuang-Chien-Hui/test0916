@@ -98,6 +98,44 @@
         </tfoot>
     </table>
     <hr><!--水平分隔線-->
+    <form action="form_action.php" method="get"><!--action => 資料發送地，method => 資料傳送方式-->>
+        <h1>基本資料</h1>
+        
+        <!--設定輸入框格-->
+        <label for="myname">姓名</label>
+        <input type="text" id="myname" name="myname">
+        <br><!--換行-->
+        <br><!--換行-->
+        
+        <!--設定下拉選單-->
+        <label for="grade">年級</label>
+        <select id="grade">
+            <option value="一年級">一年級</option>
+            <option value="二年級">二年級</option>
+            <option value="三年級">三年級</option>
+            <option value="四年級">四年級</option>
+            <option value="五年級">五年級</option>
+            <option value="六年級">六年級</option>
+        </select>
+        <br><!--換行-->
+        <br><!--換行-->
+
+        <!---->
+        <p>性別</p>
+        <label for="male">男</label>
+        <input type="radio" id="male" name="sex">
+        <label for="female">女</label>
+        <input type="radio" id="female" name="sex">
+        <br><!--換行-->
+        <br><!--換行-->
+        <label for="remarks">備註</label>
+        <br><!--換行-->
+        <textarea rows="4" id="remarks"></textarea>
+        <br><!--換行-->
+        <br><!--換行-->
+        <input type="submit" value="送出">
+    </form>
+    <br><!--換行-->
     <footer><!--整份網頁的最底處，用於存放版權、作者資訊等-->
         <p>@ 段落文字</p>
     </footer>
